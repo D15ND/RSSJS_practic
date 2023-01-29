@@ -8,8 +8,8 @@ var questions = [{
   corAnswer: 0
 }];
 
-for (let i=0; i<questions.length; i++) {
-  questions[i].usersAnswer=null;
-};
+questions.forEach(function (i) {
+  i.usersAnswer=null;
+})
 
 console.log(questions);
